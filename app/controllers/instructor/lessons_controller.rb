@@ -12,6 +12,8 @@ class Instructor::LessonsController < ApplicationController
   end
 
   private
+  #By creating the helper method and defining actions below, the above code becomes 
+  #siplified and cleaner to read and avoids repetitive lines. 
 
   def require_authorized_for_current_section
     if current_section.course.user != current_user
