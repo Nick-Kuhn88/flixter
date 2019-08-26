@@ -63,10 +63,11 @@ gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
 gem 'devise'
 gem 'simple_form'
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 1.0'
 gem 'figaro'
 gem "fog-aws"
 gem "mini_magick"
+gem 'carrierwave-aws'
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
