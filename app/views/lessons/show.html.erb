@@ -8,7 +8,6 @@
 
   <% if current_lesson.next_lesson.present? %>
     <%= link_to "Next Lesson", lesson_path(current_lesson.next_lesson), class: 'btn btn-default float-right' %>
-         <span class= "fa fa-forward"></span>
   <% end %> 
 
   <br class="clr" />
