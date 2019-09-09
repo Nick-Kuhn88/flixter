@@ -26,7 +26,7 @@
     <h3 class="text-center">
       <%= link_to course.title, course_path(course) %>
     </h3>
-    <br />
+    <br class="clr" />
     <%= image_tag course.image.url, class: 'img-fluid' %>
     <br />
     <div class="row">
@@ -36,6 +36,7 @@
       <div class="col-12 col-sm-4 text-center">
         <%= link_to "Go to Course", course_path(course), class: 'btn btn-primary btn-large' %>
       </div>
+    </div>
     <hr class="col-8 offset-2">
     <br class="clr" />
   <% end %>
